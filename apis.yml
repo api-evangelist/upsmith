@@ -1,7 +1,24 @@
 aid: upsmith
-name: Upsmith
-description: Upsmith is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/upsmith.png
+name: UpSmith
+description: UpSmith is a Dallas, Texas-based company backed by a16z that builds AI
+  agents for home services and skilled trades businesses (HVAC, plumbing, electrical).
+  Its platform texts customers to confirm appointments, follows up on cold estimates,
+  responds to inbound leads around the clock, and reactivates dormant customers,
+  syncing customer records, job details, and booking data with ServiceTitan through
+  ServiceTitan's official APIs. UpSmith consumes partner APIs (a native ServiceTitan
+  marketplace integration) but does not publish a public developer API of its own.
 url: https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Home Services
+- Skilled Trades
+- AI Agents
+- SMS
+- HVAC
+- Plumbing
+- Field Service
 apis: []
+common:
+- type: DomainSecurity
+  url: security/upsmith-domain-security.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/upsmith-llms.txt
+- name: Website
+  type: Website
+  url: https://www.upsmith.com/
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.upsmith.com/privacy
+- name: Terms of Service
+  type: TermsOfService
+  url: https://www.upsmith.com/terms
+- name: Support
+  type: Support
+  url: mailto:support@upsmith.com
+- name: ServiceTitan Marketplace Listing
+  type: Marketplace
+  url: https://marketplace.servicetitan.com/partner/upsmith
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

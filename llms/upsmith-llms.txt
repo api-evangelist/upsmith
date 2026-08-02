@@ -1,0 +1,21 @@
+# UpSmith
+
+> UpSmith is a Dallas, Texas-based, a16z-backed company that builds AI agents for home services and skilled trades businesses (HVAC, plumbing, electrical). Its platform confirms appointments by two-way SMS, follows up on cold estimates, responds to inbound leads 24/7, and reactivates dormant customers, syncing customer, job, and booking data with ServiceTitan through ServiceTitan's official APIs. UpSmith consumes partner APIs but does not publish a public developer API of its own.
+
+## Company
+
+- [Website](https://www.upsmith.com/): AI profit engine for home trades
+- [About](https://www.upsmith.com/about): Company background
+- [Customers](https://www.upsmith.com/customers): Customer stories
+- [Integrations](https://www.upsmith.com/integrations): Integration overview
+- [ServiceTitan Marketplace Listing](https://marketplace.servicetitan.com/partner/upsmith): Native ServiceTitan integration (customer records, job details, booking data)
+
+## Policies
+
+- [Privacy Policy](https://www.upsmith.com/privacy)
+- [Terms of Service](https://www.upsmith.com/terms)
+
+## API Evangelist Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/apis.yml): Machine-readable profile of this company
+- No public OpenAPI, AsyncAPI, MCP server, SDKs, or developer portal was found as of 2026-07-21.
